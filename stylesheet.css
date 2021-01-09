@@ -1,4 +1,84 @@
 body{
-	color: red;
-	background-color: black;
+position: relative;
+width: 375px;
+height: 812px;
+background: #000000;
+color: white;
+}
+
+.logo{
+	position: absolute;
+width: 201px;
+height: 54px;
+left: 17px;
+top: 25px;
+}
+
+.menu{
+	position: absolute;
+left: 300px;
+top: 42px;
+}
+
+.profile{
+	position: absolute;
+width: 193px;
+height: 357px;
+left: -9px;
+top: 104px;
+
+background: url(IMG_5046.jpg);
+}
+
+.text1{
+
+position: absolute;
+width: 186px;
+height: 23px;
+left: 134px;
+top: 104px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 19px;
+line-height: 23px;
+letter-spacing: 0.15em;
+}
+
+.text2{
+	position: absolute;
+width: 241px;
+height: 46px;
+left: 134px;
+top: 133px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+letter-spacing: 0.15em;
+}
+
+.text3{
+	position: absolute;
+width: 184px;
+height: 100px;
+left: 199px;
+top: 233px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 133.2%;
+/* or 25px */
+
+letter-spacing: 0.15em;
+
+color: #CF7E04;
+}
+
+
 }
