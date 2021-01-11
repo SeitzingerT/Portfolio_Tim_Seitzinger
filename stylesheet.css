@@ -39,11 +39,6 @@ color: white;
   margin-top: 20px;
 }
 
-.logo1{
-  height: 0%;
-  padding: 0%;
-}
-
 .navbar a:hover{
   text-decoration: underline;
 
@@ -68,6 +63,20 @@ color: white;
   display: none;
 }
 
+.title{
+	position: absolute;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 240px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
 
 
 .profile{
