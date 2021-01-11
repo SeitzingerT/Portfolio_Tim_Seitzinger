@@ -8,10 +8,8 @@ color: white;
 
 .logo{
 	position: absolute;
-width: 201px;
-height: 54px;
-left: 17px;
-top: 25px;
+	left: 10px;
+	top: 10px;
 }
 
 .navbar {
@@ -145,6 +143,9 @@ color: #CF7E04;
     font-size: 40px;
     text-decoration: none;
     padding: 4px 25px 0px 0px;
+    position: absolute;
+    right: 0;
+    top: 13px;
   }
   .navbar-right.responsive {
     margin-top: 30%;
@@ -157,7 +158,7 @@ color: #CF7E04;
     font-size: 40px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: -8px;
 
   }
   .navbar-right.responsive a {
