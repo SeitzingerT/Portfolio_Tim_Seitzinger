@@ -80,5 +80,11 @@ letter-spacing: 0.15em;
 color: #CF7E04;
 }
 
+@media only screen and (min-width: 768px) {
 
+	body{
+	position: relative;
+	width: 90%;
+	background: #ffffff;
+	color: white;
 }
