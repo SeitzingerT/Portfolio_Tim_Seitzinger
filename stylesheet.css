@@ -14,11 +14,63 @@ left: 17px;
 top: 25px;
 }
 
-.menu{
-	position: absolute;
-left: 300px;
-top: 42px;
+.navbar {
+
+  background-color: #000000;
+/*  float: right;*/
+  position: absolute; /*menu*/
+  z-index: 1; /*menu*/
+  width: 100%; /*menu*/
 }
+
+.navbar a {
+
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 40px 10px 16px;
+  text-decoration: none;
+  font-weight: 300;
+
+}
+
+#navbar-right{
+  float: right;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.logo1{
+  height: 0%;
+  padding: 0%;
+}
+
+.navbar a:hover{
+  text-decoration: underline;
+
+}
+
+.navbar-right {
+    float: right;
+    padding-top: 1.5%;
+    padding-right: 1.5%;
+}
+
+.navbar-right a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-right .icon {
+  display: none;
+}
+
+
 
 .profile{
 	position: absolute;
@@ -82,11 +134,38 @@ color: #CF7E04;
 
 
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 600px) {
+  /*hamburger responsive deel*/
+   .navbar-right a {
+    display: none;
+  }
+  .navbar-right a.icon {
+    float: right;
+    display: block;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 4px 25px 0px 0px;
+  }
+  .navbar-right.responsive {
+    margin-top: 30%;
+    height: 640px;
+    width: 100%;
+    float: none;
+    
+  }
+  .navbar-right.responsive .icon {
+    font-size: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
 
-	body{
-	position: relative;
-	width: 90%;
-	background: #ffffff;
-	color: white;
+  }
+  .navbar-right.responsive a {
+    font-size: 20px;
+    padding: 25px;
+    float: none;
+    display: block;
+    text-decoration: none;
+  }
+  
 }
