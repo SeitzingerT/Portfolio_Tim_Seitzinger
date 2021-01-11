@@ -80,12 +80,7 @@ letter-spacing: 0.15em;
 color: #CF7E04;
 }
 
-@media only screen and (max-width: 768px) {
-	
-	body{
-		background-color: #000000;
 
-}
 
 @media only screen and (min-width: 768px) {
 
