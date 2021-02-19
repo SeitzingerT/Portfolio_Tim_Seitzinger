@@ -63,9 +63,12 @@ color: white;
   display: none;
 }
 
-.title{
-	position: absolute;
-
+.titleminors{
+	background: url("images/valentin-salja-CLvkkjb-i3g-unsplash.jpg");
+	-webkit-background-clip: text;
+   	-webkit-text-fill-color: transparent;
+   	position: absolute;
+	background-size: cover;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 900;
