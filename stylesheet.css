@@ -182,3 +182,7 @@ color: #CF7E04;
   }
   
 }
+@media screen and (min-width: 600px) {
+  body{
+    background: white;
+  }
